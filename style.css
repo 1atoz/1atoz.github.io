@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'iceSotong-Rg';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/iceSotong-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Giants-Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-1@1.1/Giants-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+h1{
+    color: #c8ff00;
+    background-color: rgba(0, 177, 44, 0.589);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: ridge;
+    border-width:20px;
+    border-color:aqua;
+    border-radius: 20px;
+    font-size: 50px;
+    box-shadow: 10px 10px 10px #ff5d5d7c;
+    font-family: Giants-Bold;
+}
+
+h2{
+    color: #0400ff;
+    background-color: rgba(243, 104, 12, 0.589);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: ridge;
+    border-width:10px;
+    box-shadow: 10px 10px 10px #ff5d5d7c;
+    font-family: Giants-Bold;
+}
+
+h2::first-letter{
+    font-size: 30px;
+    background-color: rgba(243, 12, 12, 0.589);
+    color: #00d9ff;
+    border-style: double;
+    border-color:aqua;
+}
+
+h2:hover{
+    background-color: rgba(255, 0, 0, 0.589);
+}
+
+h2:hover::first-letter{
+    background-color: rgb(255, 0, 170);
+}
+
+p{
+    font-size: 22px;
+    text-indent: 10px;
+    line-height: 150%;
+    font-family: iceSotong-Rg;
+}
