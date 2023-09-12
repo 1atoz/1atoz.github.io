@@ -1,0 +1,47 @@
+body {
+    background: #EECDA3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #EF629F, #EECDA3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #EF629F, #EECDA3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-attachment: fixed;
+    text-align: center;
+    padding: 50px; 
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #05f7ff;
+}
+
+p {
+    color: #ffffff;
+}
+
+a {
+    display: block;
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+a:hover {
+    background-color: #5aff30;
+    color: #030c15;
+    border-color: #000;
+    border-radius: 100px;
+    transform: scale(1.2) rotate(-5deg);
+    letter-spacing: 10px;
+    box-shadow: 5px 5px 10px #b31891;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+
+
